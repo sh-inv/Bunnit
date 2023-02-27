@@ -1,15 +1,15 @@
 import {Text} from 'react-native';
-import styled from 'styled-components';
+import styled from 'styled-components/native';
 
 const Library = () => {
   return (
-    <LibraryContainer>
+    <Container>
       <Text>Library</Text>
-    </LibraryContainer>
+    </Container>
   );
 };
 
-const LibraryContainer = styled.View`
+const Container = styled.View`
   align-items: center;
   justify-content: center;
   height: 100%;

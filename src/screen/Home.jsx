@@ -1,15 +1,15 @@
 import {Text} from 'react-native';
-import styled from 'styled-components';
+import styled from 'styled-components/native';
 
 const Home = () => {
   return (
-    <HomeContainer>
+    <Container>
       <Text>Home</Text>
-    </HomeContainer>
+    </Container>
   );
 };
 
-const HomeContainer = styled.View`
+const Container = styled.View`
   align-items: center;
   justify-content: center;
   height: 100%;
